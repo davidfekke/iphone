@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D58EA716F4A2CA00F2B82F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D58EA616F4A2CA00F2B82F /* UIKit.framework */; };
+		63D58EA916F4A2CA00F2B82F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D58EA816F4A2CA00F2B82F /* Foundation.framework */; };
+		63D58EAB16F4A2CA00F2B82F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D58EAA16F4A2CA00F2B82F /* CoreGraphics.framework */; };
+		63D58EB116F4A2CA00F2B82F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63D58EAF16F4A2CA00F2B82F /* InfoPlist.strings */; };
+		63D58EB316F4A2CA00F2B82F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D58EB216F4A2CA00F2B82F /* main.m */; };
+		63D58EB716F4A2CA00F2B82F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D58EB616F4A2CA00F2B82F /* AppDelegate.m */; };
+		63D58EB916F4A2CA00F2B82F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D58EB816F4A2CA00F2B82F /* Default.png */; };
+		63D58EBB16F4A2CA00F2B82F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D58EBA16F4A2CA00F2B82F /* Default@2x.png */; };
+		63D58EBD16F4A2CA00F2B82F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D58EBC16F4A2CA00F2B82F /* Default-568h@2x.png */; };
+		63D58EC016F4A2CA00F2B82F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D58EBE16F4A2CA00F2B82F /* MainStoryboard.storyboard */; };
+		63D58EC316F4A2CA00F2B82F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D58EC216F4A2CA00F2B82F /* MainViewController.m */; };
+		63D58EC616F4A2CA00F2B82F /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D58EC516F4A2CA00F2B82F /* FlipsideViewController.m */; };
+		63D58ECE16F4B9F900F2B82F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D58ECD16F4B9F900F2B82F /* LoginViewController.m */; };
+		63D58ED116F501F900F2B82F /* InstanexAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D58ED016F501F900F2B82F /* InstanexAccess.m */; };
+		63D58ED416F5047100F2B82F /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D58ED316F5047100F2B82F /* NSData+Additions.m */; };
+		63D58ED716F518DC00F2B82F /* CompaniesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D58ED616F518DC00F2B82F /* CompaniesViewController.m */; };
+		63ED457B16FBFB0C009EF6AB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63ED457A16FBFB0C009EF6AB /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63D58EA316F4A2CA00F2B82F /* InstanexIPhoneSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstanexIPhoneSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D58EA616F4A2CA00F2B82F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63D58EA816F4A2CA00F2B82F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63D58EAA16F4A2CA00F2B82F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63D58EAE16F4A2CA00F2B82F /* InstanexIPhoneSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstanexIPhoneSample-Info.plist"; sourceTree = "<group>"; };
+		63D58EB016F4A2CA00F2B82F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63D58EB216F4A2CA00F2B82F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63D58EB416F4A2CA00F2B82F /* InstanexIPhoneSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstanexIPhoneSample-Prefix.pch"; sourceTree = "<group>"; };
+		63D58EB516F4A2CA00F2B82F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63D58EB616F4A2CA00F2B82F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63D58EB816F4A2CA00F2B82F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		63D58EBA16F4A2CA00F2B82F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		63D58EBC16F4A2CA00F2B82F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		63D58EBF16F4A2CA00F2B82F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		63D58EC116F4A2CA00F2B82F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		63D58EC216F4A2CA00F2B82F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		63D58EC416F4A2CA00F2B82F /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		63D58EC516F4A2CA00F2B82F /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		63D58ECC16F4B9F900F2B82F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		63D58ECD16F4B9F900F2B82F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		63D58ECF16F501F900F2B82F /* InstanexAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanexAccess.h; sourceTree = "<group>"; };
+		63D58ED016F501F900F2B82F /* InstanexAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstanexAccess.m; sourceTree = "<group>"; };
+		63D58ED216F5047100F2B82F /* NSData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Additions.h"; sourceTree = "<group>"; };
+		63D58ED316F5047100F2B82F /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Additions.m"; sourceTree = "<group>"; };
+		63D58ED516F518DC00F2B82F /* CompaniesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompaniesViewController.h; sourceTree = "<group>"; };
+		63D58ED616F518DC00F2B82F /* CompaniesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompaniesViewController.m; sourceTree = "<group>"; };
+		63ED457A16FBFB0C009EF6AB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D58EA016F4A2CA00F2B82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D58EA716F4A2CA00F2B82F /* UIKit.framework in Frameworks */,
+				63D58EA916F4A2CA00F2B82F /* Foundation.framework in Frameworks */,
+				63D58EAB16F4A2CA00F2B82F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D58E9A16F4A2C900F2B82F = {
+			isa = PBXGroup;
+			children = (
+				63D58EAC16F4A2CA00F2B82F /* InstanexIPhoneSample */,
+				63D58EA516F4A2CA00F2B82F /* Frameworks */,
+				63D58EA416F4A2CA00F2B82F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D58EA416F4A2CA00F2B82F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D58EA316F4A2CA00F2B82F /* InstanexIPhoneSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D58EA516F4A2CA00F2B82F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D58EA616F4A2CA00F2B82F /* UIKit.framework */,
+				63D58EA816F4A2CA00F2B82F /* Foundation.framework */,
+				63D58EAA16F4A2CA00F2B82F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D58EAC16F4A2CA00F2B82F /* InstanexIPhoneSample */ = {
+			isa = PBXGroup;
+			children = (
+				63D58ED216F5047100F2B82F /* NSData+Additions.h */,
+				63D58ED316F5047100F2B82F /* NSData+Additions.m */,
+				63D58EB516F4A2CA00F2B82F /* AppDelegate.h */,
+				63D58EB616F4A2CA00F2B82F /* AppDelegate.m */,
+				63D58EBE16F4A2CA00F2B82F /* MainStoryboard.storyboard */,
+				63D58EC116F4A2CA00F2B82F /* MainViewController.h */,
+				63D58EC216F4A2CA00F2B82F /* MainViewController.m */,
+				63D58ED516F518DC00F2B82F /* CompaniesViewController.h */,
+				63D58ED616F518DC00F2B82F /* CompaniesViewController.m */,
+				63D58EC416F4A2CA00F2B82F /* FlipsideViewController.h */,
+				63D58EC516F4A2CA00F2B82F /* FlipsideViewController.m */,
+				63D58ECC16F4B9F900F2B82F /* LoginViewController.h */,
+				63D58ECD16F4B9F900F2B82F /* LoginViewController.m */,
+				63D58ECF16F501F900F2B82F /* InstanexAccess.h */,
+				63D58ED016F501F900F2B82F /* InstanexAccess.m */,
+				63ED457A16FBFB0C009EF6AB /* Settings.bundle */,
+				63D58EAD16F4A2CA00F2B82F /* Supporting Files */,
+			);
+			path = InstanexIPhoneSample;
+			sourceTree = "<group>";
+		};
+		63D58EAD16F4A2CA00F2B82F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D58EAE16F4A2CA00F2B82F /* InstanexIPhoneSample-Info.plist */,
+				63D58EAF16F4A2CA00F2B82F /* InfoPlist.strings */,
+				63D58EB216F4A2CA00F2B82F /* main.m */,
+				63D58EB416F4A2CA00F2B82F /* InstanexIPhoneSample-Prefix.pch */,
+				63D58EB816F4A2CA00F2B82F /* Default.png */,
+				63D58EBA16F4A2CA00F2B82F /* Default@2x.png */,
+				63D58EBC16F4A2CA00F2B82F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D58EA216F4A2CA00F2B82F /* InstanexIPhoneSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D58EC916F4A2CA00F2B82F /* Build configuration list for PBXNativeTarget "InstanexIPhoneSample" */;
+			buildPhases = (
+				63D58E9F16F4A2CA00F2B82F /* Sources */,
+				63D58EA016F4A2CA00F2B82F /* Frameworks */,
+				63D58EA116F4A2CA00F2B82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstanexIPhoneSample;
+			productName = InstanexIPhoneSample;
+			productReference = 63D58EA316F4A2CA00F2B82F /* InstanexIPhoneSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D58E9B16F4A2C900F2B82F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "David Fekke L.L.C.";
+			};
+			buildConfigurationList = 63D58E9E16F4A2C900F2B82F /* Build configuration list for PBXProject "InstanexIPhoneSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63D58E9A16F4A2C900F2B82F;
+			productRefGroup = 63D58EA416F4A2CA00F2B82F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D58EA216F4A2CA00F2B82F /* InstanexIPhoneSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D58EA116F4A2CA00F2B82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D58EB116F4A2CA00F2B82F /* InfoPlist.strings in Resources */,
+				63D58EB916F4A2CA00F2B82F /* Default.png in Resources */,
+				63D58EBB16F4A2CA00F2B82F /* Default@2x.png in Resources */,
+				63D58EBD16F4A2CA00F2B82F /* Default-568h@2x.png in Resources */,
+				63D58EC016F4A2CA00F2B82F /* MainStoryboard.storyboard in Resources */,
+				63ED457B16FBFB0C009EF6AB /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D58E9F16F4A2CA00F2B82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D58EB316F4A2CA00F2B82F /* main.m in Sources */,
+				63D58EB716F4A2CA00F2B82F /* AppDelegate.m in Sources */,
+				63D58EC316F4A2CA00F2B82F /* MainViewController.m in Sources */,
+				63D58EC616F4A2CA00F2B82F /* FlipsideViewController.m in Sources */,
+				63D58ECE16F4B9F900F2B82F /* LoginViewController.m in Sources */,
+				63D58ED116F501F900F2B82F /* InstanexAccess.m in Sources */,
+				63D58ED416F5047100F2B82F /* NSData+Additions.m in Sources */,
+				63D58ED716F518DC00F2B82F /* CompaniesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63D58EAF16F4A2CA00F2B82F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D58EB016F4A2CA00F2B82F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63D58EBE16F4A2CA00F2B82F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D58EBF16F4A2CA00F2B82F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D58EC716F4A2CA00F2B82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63D58EC816F4A2CA00F2B82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D58ECA16F4A2CA00F2B82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstanexIPhoneSample/InstanexIPhoneSample-Prefix.pch";
+				INFOPLIST_FILE = "InstanexIPhoneSample/InstanexIPhoneSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63D58ECB16F4A2CA00F2B82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstanexIPhoneSample/InstanexIPhoneSample-Prefix.pch";
+				INFOPLIST_FILE = "InstanexIPhoneSample/InstanexIPhoneSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D58E9E16F4A2C900F2B82F /* Build configuration list for PBXProject "InstanexIPhoneSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D58EC716F4A2CA00F2B82F /* Debug */,
+				63D58EC816F4A2CA00F2B82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D58EC916F4A2CA00F2B82F /* Build configuration list for PBXNativeTarget "InstanexIPhoneSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D58ECA16F4A2CA00F2B82F /* Debug */,
+				63D58ECB16F4A2CA00F2B82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D58E9B16F4A2C900F2B82F /* Project object */;
+}
