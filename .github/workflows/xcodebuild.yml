@@ -1,0 +1,21 @@
+name: Xcode Build and Archive
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install profile for Build
+      run: ./.github/secrets/decrypt_secret.sh
+      env:
+        PASSPHRASE: ${{ secrets.PASSPHRASE }}
+    - name: Xcode version
+      run: /usr/bin/xcodebuild -version
+    - name: Build
+      run: xcodebuild -sdk iphoneos -project InstanexIPhoneSample.xcodeproj -configuration Debug -scheme InstanexIPhoneSample
