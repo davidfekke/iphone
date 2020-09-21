@@ -18,4 +18,4 @@ jobs:
     - name: Xcode version
       run: /usr/bin/xcodebuild -version
     - name: Build
-      run: xcodebuild -sdk iphoneos -project InstanexIPhoneSample.xcodeproj -configuration Debug -scheme InstanexIPhoneSample
+      run: xcodebuild -sdk iphoneos -project InstanexIPhoneSample.xcodeproj -configuration Release -scheme InstanexIPhoneSample
