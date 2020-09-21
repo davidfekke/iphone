@@ -163,12 +163,19 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "David Fekke L.L.C.";
+				TargetAttributes = {
+					63D58EA216F4A2CA00F2B82F = {
+						DevelopmentTeam = JXRDDKQ33V;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 63D58E9E16F4A2C900F2B82F /* Build configuration list for PBXProject "InstanexIPhoneSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 63D58E9A16F4A2C900F2B82F;
@@ -294,10 +301,14 @@
 		63D58ECA16F4A2CA00F2B82F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXRDDKQ33V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InstanexIPhoneSample/InstanexIPhoneSample-Prefix.pch";
 				INFOPLIST_FILE = "InstanexIPhoneSample/InstanexIPhoneSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -305,10 +316,14 @@
 		63D58ECB16F4A2CA00F2B82F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JXRDDKQ33V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InstanexIPhoneSample/InstanexIPhoneSample-Prefix.pch";
 				INFOPLIST_FILE = "InstanexIPhoneSample/InstanexIPhoneSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = InstanexIPhoneSampleDist;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
